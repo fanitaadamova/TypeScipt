@@ -52,3 +52,4 @@ console.log(`Student age: ${student.age}`);
 const point = { x: 10, y: 20 };
 console.log(Object.keys(point));
 const color = { red: 'cherven', blue: 'sin' };
+//# sourceMappingURL=main.js.map

@@ -19,3 +19,4 @@ const getName = (param1, param2) => {
     return `Result - ${param1} ${param2}`;
 };
 console.log(getName(6, 'Fani'));
+//# sourceMappingURL=interfaces-demo.js.map
