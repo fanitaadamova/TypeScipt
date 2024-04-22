@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    /** Decorators Stage 2 */
+    // "target": "ES5",
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true
+    /** Decorators Stage 3 - TypeScript version 5 and above */
+    "target": "ES2022", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "rootDir": "./src", /* Specify the root folder within your source files. */
+    "outDir": "./dist",
+    "module": "commonjs"
+  }
+}
