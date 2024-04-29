@@ -6,7 +6,7 @@ type Product = {
 }
 
 function lowestPricesInCities(arrayInput: Array<string>) {
-    let objOfProducts: object = {};
+    let objOfProducts: object = {} as Product;
 
     arrayInput.forEach(element => {
         let [townName, productName, productPrice] = element.split(' | ');
@@ -16,7 +16,7 @@ function lowestPricesInCities(arrayInput: Array<string>) {
         } else {
             let currentPrice = objOfProducts[productName][0];
 
-            if (Number(productPrice) > currentPrice) {
+            if (Number(productPrice) < currentPrice) {
                 objOfProducts[productName] = [productPrice, townName];
             }
 

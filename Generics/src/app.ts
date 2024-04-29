@@ -22,6 +22,11 @@ const getParamInfo = <T>(param: T): string => {
 function getParamInformation<T>(param: T) {
     return `This is your param: ${param}.`
 }
+function add<T>(param: T[]):void{
+    console.log(param);
+
+}
+
 
 const paramNumber = getParamInfo(123);
 console.log(paramNumber);

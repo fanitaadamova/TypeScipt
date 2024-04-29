@@ -25,4 +25,4 @@ lowestPricesInCities(['Sample Town | Sample Product | 1000',
     'Sofia | Peach | 2',
     'New York | Sample Product | 1000.1',
     'New York | Burger | 10']);
-//# sourceMappingURL=task-6.js.map
+//# sourceMappingURL=lowestPrice.js.map
